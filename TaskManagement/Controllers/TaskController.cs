@@ -11,7 +11,7 @@ namespace TaskManagement.Controllers
 {
     [ApiController]
     [Route("api")]
-    //[Authorize]
+    [Authorize]
     
     public class TasksController : ControllerBase
     {
